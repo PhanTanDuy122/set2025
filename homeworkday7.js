@@ -14,15 +14,15 @@ console.log("BMI: ", BMI);
 let principal = 3000;
 let rat = 0.5
 const time = 15;
-const Interest = principal * rat * time;
-console.log("Interest: ", Interest);
+const interest = principal * rat * time;
+console.log("Interest: ", interest);
 
 
 //Convert Currency (USD to local currency)
 let money = 50000;
 const local = 25000;
-const Currency = money * local;
-console.log("Currency: ", Currency);
+const currency = money * local;
+console.log("Currency: ", currency);
 
 
 
