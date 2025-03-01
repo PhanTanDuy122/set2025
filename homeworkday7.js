@@ -13,8 +13,8 @@ console.log("BMI: ", BMI);
 //Calculate Simple Interest (principal * rate * time)
 let principal = 3000;
 let rat = 0.5
-const time = 15;
-const Interest = principal * rat * time;
+const time1 = 15;
+const Interest = principal * rat * time1;
 console.log("Interest: ", Interest);
 
 
@@ -27,10 +27,11 @@ console.log("Currency: ", Currency);
 
 
 //Calculate Time (hours:minutes:seconds)
-hours = 4;
-minutes = 30;
-second = 60;
-let total_seconds = (hours * 3600) + (minutes * 60); + second;
-console.log("Total_seconds: ", total_seconds);
+let now = new Date();
+let hours = now.getHours.toString().padStart(2, '0');
+let minutes = now.getMinutes.toString().padStart(3, '0');
+let seconds =  now.getSeconds.toString().padStart(4, '0');
+let time = `${hours}:${minutes}:${seconds}`;
+console.log("Time1: ", now);
 
 
