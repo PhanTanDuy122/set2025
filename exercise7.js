@@ -15,7 +15,7 @@ let height1 = 3;
 // Calculate perimeter
 let perimeter = (width + height1) * 2;
 // Calculate area
-let area = width * height;
+let area = width * height1;
 // Print results
 console.log("Perimeter:", perimeter);
 console.log("Area:", area);
